@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'under construction',
-  tagline: 'chainguys',
+  title: 'all hail yep chi hoe',
+  tagline: 'lol',
   url: 'https://github.com',
   baseUrl: '/neonwp/',
   onBrokenLinks: 'throw',
