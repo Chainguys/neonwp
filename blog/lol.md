@@ -2,6 +2,12 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+[link1](./2019-05-29-long-blog-post.md#yep-chi-how)
+
+[link2](./2021-08-26-welcome/index.md#101.1-lol)
+
+[link3](../docs/tutorial-extras/translate-your-site.md)
+
 ### Installation
 
 ```
