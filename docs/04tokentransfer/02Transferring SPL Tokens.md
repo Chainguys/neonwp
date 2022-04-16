@@ -16,7 +16,7 @@ Before you start transferring ERC-20 tokens, you have to fulfill the following r
 - On a source side, you should already have an account with the balance of tokens that will be transferred.
    从来源上讲，您应该已经有一个账户，其中包含将要传输的代币余额。
    
-- NeonPass uses [MetaMask](https://docs.neon-labs.org/docs/about/terminology#metamask) and [Phantom](https://docs.neon-labs.org/docs/about/terminology#phantom), two popular non-custodial browser based wallets.
+- NeonPass uses [MetaMask](https://docs.neon-labs.org/docs/about/terminology#metamask) and [Phantom](https://docs.neon-labs.org/docs/about/terminology#phantom), two popular non-custodial browser based wallets.  
    NeonPass 使用 [MetaMask](https://docs.neon-labs.org/docs/about/terminology#metamask) 和 [Phantom](https://docs.neon-labs.org/docs/about/terminology# phantom)，两个流行的，基于浏览器的非托管钱包。
    
 - The NeonPass application is deployed in the browser to which your wallets are attached.
@@ -31,25 +31,24 @@ This procedure presents the example of transferring USDT tokens from Neon EVM to
 Initial conditions:
 初始条件：
 
-- Your Neon EVM account contains a non-zero USDT balance.
+- Your Neon EVM account contains a non-zero USDT balance.  
    您的 Neon EVM 账户包含非零 USDT 余额。
    
-- You have a non-zero NEON balance to pay the withdrawal approval fee.
-   您有一个非零的 NEON 余额来支付提款批准费。
+- You have a non-zero NEON balance to pay the withdrawal approval fee.  
+	您有一个非零的 NEON 余额来支付提款批准费。  
 
-- Your Solana account contains a non-zero SOL-balance to pay the fee.
-   您的 Solana 账户包含用于支付费用的非零 SOL 余额。
+- Your Solana account contains a non-zero SOL-balance to pay the fee.  	您的 Solana 账户包含用于支付费用的非零 SOL 余额。  
 
-Transferring tokens using NeonPass occurs in three stages:
+Transferring tokens using NeonPass occurs in three stages:  
 用 NeonPass 传输代币有下面三阶段：
 
-- Source — Connecting the MetaMask wallet to NeonPass and providing access to the sender's account balance.
+- Source — Connecting the MetaMask wallet to NeonPass and providing access to the sender's account balance.  
    来源—将 MetaMask 钱包连接到 NeonPass 并允许访问发件人帐户余额。
    
-- Target — Connecting the Phantom wallet to NeonPass and providing access to the recipient's account balance.
+- Target — Connecting the Phantom wallet to NeonPass and providing access to the recipient's account balance.  
    目标—将 Phantom 钱包连接到 NeonPass 并提供对收件人帐户余额的访问。
    
-- Confirmation — Signing the transaction and checking the result of transferring tokens.
+- Confirmation — Signing the transaction and checking the result of transferring tokens.  
    确认— 对交易签名并检查传输代币的结果。
 
 #### 来源阶段 (The Source Stage)
@@ -137,4 +136,5 @@ The `Token Balance Change` tab shows the change in balances upon completion of t
 We examined the use of NeonPass in Devnet using the example of transferring USDT tokens from Neon EVM to Solana. The procedure for reverse transferring tokens from Solana to Neon EVM using NeonPass is not much different from the one given, and therefore we do not consider it here. The main difference will be only in the order of connecting wallets to NeonPass.
 
 我们以 USDT 代币从 Neon EVM 转移到 Solana 为例，体验了 NeonPass 在 Solana Devnet 中的使用。用 NeonPass 将代币从 Solana 反向传输到 Neon EVM 的过程与给定的过程并无过大差异，主要区别仅在于将钱包连接到 NeonPass 的顺序，就不再赘述。
+
 

@@ -56,10 +56,10 @@ Create a wallet if you don't already have one. MetaMask offers a choice of two o
 
 如果您还没有钱包，请创建一个钱包。 MetaMask 提供了两种方式创建账户：
 
-* Import an existing wallet using a 12-word passphrase.
+* Import an existing wallet using a 12-word passphrase.  
    通过12个单词的助记词引入一个已经存在的钱包
 
-* Create a new wallet.
+* Create a new wallet.  
    创建一个新钱包
 
 Go ahead and `Create a Wallet` On the support page `Help Us Improve MetaMask` click `I agree.`
@@ -88,13 +88,13 @@ Depending on the tasks to be solved, as well as on the location of the proxy and
 
 根据要解决的任务以及代理和 Solana 的位置，设置 MetaMask 钱包有 3 个选项：
 
-* Option 1: Both the proxy and Solana are hosted on remote servers.
+* Option 1: Both the proxy and Solana are hosted on remote servers.  
    选项 1：代理和 Solana 都托管在远程服务器上。
 
-* Option 2: The proxy is hosted locally, Solana is on a remote server.
+* Option 2: The proxy is hosted locally, Solana is on a remote server.  
    选项 2：代理在本地托管，Solana 在远程服务器上。
 
-* Option 3 (debug mode): Both the proxy and Solana are hosted locally.
+* Option 3 (debug mode): Both the proxy and Solana are hosted locally.  
    选项 3(调试模式)：代理和 Solana 都托管在本地。
 
 #### 第4步(Step 4)
@@ -111,22 +111,22 @@ The dropdown menu elements:
 
 下拉菜单所含的元素：
 
-* `My Accounts:` list of accounts created by your wallet.
-  `我的帐户：` 您的钱包创建的帐户列表。
+* `My Accounts:` list of accounts created by your wallet.  
+	`我的帐户：` 您的钱包创建的帐户列表。
 
-* `Account 1:` account of your wallet that was created during the MetaMask installation; this account provides management of your wallet.
+* `Account 1:` account of your wallet that was created during the MetaMask installation; this account provides management of your wallet.   
   `账户 1：` 您在 MetaMask 安装期间创建的钱包账户；此帐户提供对您钱包的管理。
 
-* `Create Account:` this allows you to create one more account to interact with the new proxy server; you can configure this wallet to interact with multiple proxy servers.
+* `Create Account:` this allows you to create one more account to interact with the new proxy server; you can configure this wallet to interact with multiple proxy servers.  
   `创建帐户：` 这允许您创建一个新帐户与新的代理服务器进行交互；您也可以将此钱包配置为与多个代理服务器进行交互。
 
-* `Import Account:` this allows you to import your private key generated and saved previously into this wallet and use it in the future.
+* `Import Account:` this allows you to import your private key generated and saved previously into this wallet and use it in the future.  
   `导入帐户：` 这使得您可以将之前生成并保存的私钥导入此钱包并在将来使用它。
 
-* `Connect Hardware Wallet:` this allows you to save the private key to an external device (i.e. flash memory) located outside the network, thereby increasing the security of your private key.
+* `Connect Hardware Wallet:` this allows you to save the private key to an external device (i.e. flash memory) located outside the network, thereby increasing the security of your private key.  
   `连接硬件钱包：` 这允许您将私钥保存到位于网络之外的外部设备(即闪存)，从而提高私钥的安全性。
 
-* `Settings:` used to change the default values; by default, the wallet is configured for Ethereum addresses, including those that you can’t use.
+* `Settings:` used to change the default values; by default, the wallet is configured for Ethereum addresses, including those that you can’t use.  
   `设置：` 用于更改默认值；默认情况下，钱包是为以太坊地址配置的，包括那些你不能使用的地址。
 
 #### 第5步(Step 5)
@@ -154,26 +154,26 @@ The new window contains the settings for 6 default subnets. You need to use thes
 
 #### 第7步(Step 7)
 
-Fill in the fields on the next page (Fig. 6):
+Fill in the fields on the next page (Fig. 6):  
 填写下一页上的字段(图 6)：
 
 ![](https://docs.neon-labs.org/assets/images/metamask-6-1a0e69a58f9e8134e151673ccd29eb17.png)
 
 (图6: 填写字段)
 
-* **Network Name**: "remote proxy — solana testnet"
+* **Network Name**: "remote proxy — solana testnet"  
    **网络名称**: "remote proxy — solana testnet"
   
-* **New RPC URL** : https://proxy.testnet.neonlabs.org/solana
+* **New RPC URL** : https://proxy.testnet.neonlabs.org/solana  
    **新增PRC URL** : https://proxy.testnet.neonlabs.org/solana
   
-* **Chain ID** :245022940
+* **Chain ID** :245022940  
    **链ID** : 245022940
 
 * **Currency Symbol** : NEON  
    **Currency Symbol** : NEON
 
-* **Block Explorer URL (optional)** : URL of the block browser
+* **Block Explorer URL (optional)** : URL of the block browser  
    **区块浏览器 (可选)** : URL of the block browser
    
 >Note: The Chain ID is specified for [Testnet](https://docs.solana.com/clusters#testnet). To choose [Devnet](https://docs.solana.com/clusters#devnet) or [Mainnet](https://docs.solana.com/clusters#mainnet-beta) in this field, you need to specify the value 245022926 or 245022934, respectively.
