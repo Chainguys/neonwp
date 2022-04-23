@@ -28,7 +28,7 @@ A browser which supports the MetaMask must be installed on your device. You can 
 
 Go to the MetaMask [download](https://metamask.io/download/) page. From there, select any platform you use and follow the instructions to load and install MetaMask your device's browser. (Fig. 1 shows an example of installing the MetaMask on the Chrome browser.)
 
-转到 MetaMask 下载页面。从那里，选择您使用的任何平台，然后按照说明加载和安装 MetaMask 到您设备的浏览器。
+转到 MetaMask [下载 (download)](https://metamask.io/download/)页面。从那里，选择您使用的任何平台，然后按照说明加载和安装 MetaMask 到您设备的浏览器。
 
 ![](https://docs.neon-labs.org/assets/images/metamask-1-ef118bfc487d3777294e8a4fb07179ce.png)
 
@@ -38,9 +38,9 @@ Go to the MetaMask [download](https://metamask.io/download/) page. From there, s
 
 #### 第2步(Step 2)
 
-MetaMask is essentially a plugin in the form of an extension to a browser. Therefore, MetaMask can be added to your browser as an extension. In the window, as shown in Fig. 2, click Add extension.
+MetaMask is essentially a plugin in the form of an extension to a browser. Therefore, MetaMask can be added to your browser as an extension. In the window, as shown in Fig. 2, click `Add extension`.
 
-MetaMask 本质上是一个以浏览器扩展形式出现的插件。因此，MetaMask 可以作为扩展添加到您的浏览器中。在窗口中，如图 2 所示，单击“添加拓展”(Add extension)。
+MetaMask 本质上是一个以浏览器扩展形式出现的插件。因此，MetaMask 可以作为扩展添加到您的浏览器中。在窗口中，如图 2 所示，单击`添加拓展”(Add extension)`。
 
 ![](https://docs.neon-labs.org/assets/images/metamask-2-78fcd9b2da8aa07c68eee925d24d4301.png)
 
@@ -161,20 +161,20 @@ Fill in the fields on the next page (Fig. 6):
 
 (图6: 填写字段)
 
-* **Network Name**: "remote proxy — solana testnet"  
-   **网络名称**: "remote proxy — solana testnet"
+* `Network Name`: "remote proxy — solana testnet"  
+   `网络名称`: "remote proxy — solana testnet"
   
-* **New RPC URL** : https://proxy.testnet.neonlabs.org/solana  
-   **新增PRC URL** : https://proxy.testnet.neonlabs.org/solana
+* `New RPC URL` : https://proxy.testnet.neonlabs.org/solana  
+   `新增PRC URL` : https://proxy.testnet.neonlabs.org/solana
   
-* **Chain ID** :245022940  
-   **链ID** : 245022940
+* `Chain ID` :245022940  
+   `链ID` : 245022940
 
-* **Currency Symbol** : NEON  
-   **Currency Symbol** : NEON
+* `Currency Symbol` : NEON  
+   `Currency Symbol` : NEON
 
-* **Block Explorer URL (optional)** : URL of the block browser  
-   **区块浏览器 (可选)** : URL of the block browser
+* `Block Explorer URL (optional)` : URL of the block browser  
+   `区块浏览器 (可选)` : 区块浏览器的URL
    
 >Note: The Chain ID is specified for [Testnet](https://docs.solana.com/clusters#testnet). To choose [Devnet](https://docs.solana.com/clusters#devnet) or [Mainnet](https://docs.solana.com/clusters#mainnet-beta) in this field, you need to specify the value 245022926 or 245022934, respectively.
 >

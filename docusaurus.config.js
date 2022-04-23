@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'all hail yep chi hoe',
-  tagline: 'lol',
+  title: 'Neon Docs',
+  tagline: 'LFG',
   url: 'https://github.com',
   baseUrl: '/neonwp/',
   onBrokenLinks: 'throw',
@@ -117,8 +117,8 @@ const config = {
 };
 
 module.exports = {
-  title: 'all hail yep chi hoe',
-  tagline: 'lol',
+  title: 'Neon Docs',
+  tagline: 'LFG',
   url: 'https://github.com',
   baseUrl: '/neonwp/',
   onBrokenLinks: 'throw',
@@ -150,6 +150,8 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      autoCollapseSidebarCategories: true,
+      hideableSidebar: true,
       tableOfContents: {
         minHeadingLevel: 2,
         maxHeadingLevel: 5,

@@ -13,11 +13,11 @@ Neon EVM is a tool that allows Ethereum-like transactions to be processed on [So
 
 Neon EVM 是一个允许在  [Solana](https://docs.solana.com/introduction) 上处理类似以太坊交易的工具，它充分利用包括并行执行交易在内的(各种) Solana 原生功能。因此，Neon EVM 允许 dApp 以 Solana 的低 gas 费用、高交易速度和高吞吐量运行，同时还可以进入不断增长的 Solana 市场。
 
-The Ethereum state is represented by a Merkle-Patricia Trie that stores key-value data for all smart contracts, and smart contracts written in Solidity do not have separate references to shared data and contracts’ code. Therefore, these smart contracts have to be executed in sequence to ensure deterministic behavior. This limits a throughput: highly optimized blockchains with EVM are capable of processing up to a maximum of 1,500 transactions per second (TPS).
+The Ethereum state is represented by a [Merkle-Patricia Trie](02Terminology#mptmerkle-patricia-trie) that stores key-value data for all smart contracts, and smart contracts written in Solidity do not have separate references to shared data and contracts’ code. Therefore, these smart contracts have to be executed in sequence to ensure deterministic behavior. This limits a throughput: highly optimized blockchains with EVM are capable of processing up to a maximum of 1,500 transactions per second (TPS).
 
 
 
-以太坊状态由存储所有智能合约键值数据的MPT(Merkle-Patricia Trie)表示，而用Solidity编写的智能合约并无对共享数据及合约代码的单独引用。因此，这些智能合约必须按顺序执行以保证行为的确定性。这样一来，链上的吞吐量就被限制了：高度优化的EVM区块链能购达到的(吞吐量)最多1,500 TPS。
+以太坊状态由存储所有智能合约键值数据的MPT[Merkle-Patricia Trie](02Terminology#mptmerkle-patricia-trie)表示，而用Solidity编写的智能合约并无对共享数据及合约代码的单独引用。因此，这些智能合约必须按顺序执行以保证行为的确定性。这样一来，链上的吞吐量就被限制了：高度优化的EVM区块链能购达到的(吞吐量)最多1,500 TPS。
 
 Solana, however, is designed to support massive scaling of decentralized applications, with a maximum throughput of more than 50,000 TPS. To take full advantage of Solana's functionality, Neon EVM is built as a smart contract of Solana. This flexibility also ensures that: Neon EVM can be updated with ease when new Ethereum functionality is introduced.
 

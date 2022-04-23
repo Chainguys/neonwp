@@ -16,8 +16,8 @@ Before you start transferring ERC-20 tokens, you have to fulfill the following r
 - On a source side, you should already have an account with the balance of tokens that will be transferred.
    从来源上讲，您应该已经有一个账户，其中包含将要传输的代币余额。
    
-- NeonPass uses [MetaMask](https://docs.neon-labs.org/docs/about/terminology#metamask) and [Phantom](https://docs.neon-labs.org/docs/about/terminology#phantom), two popular non-custodial browser based wallets.  
-   NeonPass 使用 [MetaMask](https://docs.neon-labs.org/docs/about/terminology#metamask) 和 [Phantom](https://docs.neon-labs.org/docs/about/terminology# phantom)，两个流行的，基于浏览器的非托管钱包。
+- NeonPass uses [MetaMask](../01About/02Terminology#metamask) and [Phantom](../01About/02Terminology#phantom), two popular non-custodial browser based wallets.  
+   NeonPass 使用 [MetaMask](../01About/02Terminology#metamask) 和 [Phantom](../01About/02Terminology#phantom)，两个流行的，基于浏览器的非托管钱包。
    
 - The NeonPass application is deployed in the browser to which your wallets are attached.
    NeonPass 应用部署在您钱包所连接的浏览器中。

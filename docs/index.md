@@ -16,3 +16,7 @@ sidebar_position: 1
 **最后，请理解此文件并不是官方发布的中文技术文档，而是一份由Neon信仰者[@chainguys](https://twitter.com/Chainguys)个人单独维护的文档，若翻译与英文原文有出入，一律以英文原文和官方解释为准。**
 
 **Finally,please understand this is not an official Chinese doc released by Neon, but one maintained solely by Neon Maximalist [@chainguys](https://twitter.com/Chainguys). In the event of conflicts or ambiguity between the English language version and translated versions, the English language versions and official interpretation shall prevail.**
+
+
+>技术文档太冗长？那到这儿看看 [whitepaper](11wp/wp) 吧！  
+>Docs TL;DR?Check [whitepaper](11wp/wp) here!

@@ -47,9 +47,9 @@ An object created using a Docker image and containing all the necessary componen
 
 ### 加密哈希函数(Cryptographic hash function ,CHF)
 
-A type of hash function that takes an input (or message) and returns a fixed-size alphanumeric string. The alphanumeric string is called the hash value, message digest, digital fingerprint, digest, or checksum.
+A type of hash function that takes an input (or `message`) and returns a fixed-size alphanumeric string. The alphanumeric string is called the `hash value`, `message digest`, `digital fingerprint`, `digest`, or `checksum`.
 
-一种接受输入(或消息)并返回固定大小(规模) 字母数字字符串(即字母和数字并用的字符串)的哈希函数。字母数字字符串也被称为哈希值、消息摘要、数字指纹、摘要或校验和。
+一种接受输入(或`消息`)并返回固定大小(规模) 字母数字字符串(即字母和数字并用的字符串)的哈希函数。字母数字字符串也被称为`哈希值`、`消息摘要`、`数字指纹`、`摘要`或`校验和`。
 
 ### 守护进程(Daemon)
 
@@ -161,9 +161,9 @@ An open-source service for transferring SPL tokens to Neon EVM.
 
 ### NeonSwap
 
-An open-source service and Uniswap V2 fork that runs on Neon EVM in the Solana Testnet.
+An open-source service and [Uniswap V2](https://uniswap.org/blog/uniswap-v2) fork that runs on Neon EVM in the Solana Testnet.
 
-在 Solana 测试网中的 Neon EVM 上运行的开源服务和 Uniswap V2 分叉。
+在 Solana 测试网中的 Neon EVM 上运行的开源服务和 [Uniswap V2](https://uniswap.org/blog/uniswap-v2)  分叉。
 
 ### 节点(Node)
 
@@ -265,7 +265,7 @@ A contract containing a system register of tokens that are in the system along w
 
 A token registered in [SPL Token](https://spl.solana.com/token).
 
-在SPL Token中注册过的代币
+在[SPL Token](https://spl.solana.com/token)中注册过的代币
 
 ### 已质押代币(Staked tokens)
 
