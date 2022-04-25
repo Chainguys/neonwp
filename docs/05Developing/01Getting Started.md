@@ -27,8 +27,8 @@ As a developer, you should begin by exploring the Neon EVM framework and setting
 [🔘 Using Remix](../05Developing/03Deploying%20dApps/01iUsing%20Remix) --- Example of deploying smart contracts using Remix.  
 [使用 Remix](../05Developing/03Deploying%20dApps/01iUsing%20Remix) --- 使用 Remix 部署智能合约的示例。
 
-[🔘 Using Truffle](../05Developing/03Deploying%20dApps/02Connecting%20to%20the%20Neon%20Proxy) --- Example of deploying smart contracts using Truffle.  
-[使用 Truffle](../05Developing/03Deploying%20dApps/02Connecting%20to%20the%20Neon%20Proxy) --- 使用 Truffle 部署智能合约的示例。
+[🔘 Using Truffle](../05Developing/03Deploying%20dApps/02Using%20Truffle) --- Example of deploying smart contracts using Truffle.  
+[使用 Truffle](../05Developing/03Deploying%20dApps/02Using%20Truffle) --- 使用 Truffle 部署智能合约的示例。
 
 [🔘 Using Hardhat](../05Developing/03Deploying%20dApps/03Using%20Hardhat) --- Example of deploying smart contracts using Hardhat.  
 [使用 Hardhat](../05Developing/03Deploying%20dApps/03Using%20Hardhat)  --- 使用 Hardhat 部署智能合约的示例。
