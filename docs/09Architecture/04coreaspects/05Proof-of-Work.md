@@ -13,14 +13,14 @@ Ethereum transactions are processed into blocks. Each block has a:
 
 以太坊的交易经过处理嵌入区块，每个区块都有：
 
-- **Block difficulty** – for example: 3,092,324,262,183,265  
-   **区块难度** – 举例：3,092,324,262,183,265
+- **Block difficulty** – for example: `3,092,324,262,183,265`  
+   **区块难度** – 举例：`3,092,324,262,183,265`
 
-- **MixHash** – for example: 0xf83b13079807244144bca881b07a6a09705d9f2f39a3cdf3bee29a665c5ac8bd  
-   **混合哈希**– 举例: 0xf83b13079807244144bca881b07a6a09705d9f2f39a3cdf3bee29a665c5ac8bd
+- **MixHash** – for example: `0xf83b13079807244144bca881b07a6a09705d9f2f39a3cdf3bee29a665c5ac8bd`  
+   **混合哈希**– 举例: `0xf83b13079807244144bca881b07a6a09705d9f2f39a3cdf3bee29a665c5ac8bd`
 
-- **Nonce** – for example: 0x4fb3d26bd3ee432b  
-   **随机数** – 举例: 0x4fb3d26bd3ee432b
+- **Nonce** – for example: `0x4fb3d26bd3ee432b`  
+   **随机数** – 举例: `0x4fb3d26bd3ee432b`
 
 This block data is directly related to PoW.  
 这些区块数据和PoW直接相关.

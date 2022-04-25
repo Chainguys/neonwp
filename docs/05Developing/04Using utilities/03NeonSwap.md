@@ -8,31 +8,30 @@ To swap an ERC-20 token with another token of the same standard using the NeonSw
 
 使用 NeonSwap 应用程序将 ERC-20 代币与另一个相同标准的代币交换。
 
-*Condition*: The ERC-20 token can be any SPL token whose contract complies with the ERC-20 standard and is deployed on the Neon EVM.
+*Condition*: The ERC-20 token can be any [SPL token](/01About/02Terminology#spl代币spl-token) whose contract complies with the [ERC-20](/01About/02Terminology#erc-20) standard and is deployed on the Neon EVM.
 
-*条件*：ERC-20 代币可以是符合 ERC-20 标准并部署在 Neon EVM 上的任何 SPL 代币。
+*条件*：ERC-20 代币可以是符合 ERC-20 标准并部署在 Neon EVM 上的任何 [SPL 代币]/01About/02Terminology##spl代币spl-token。
 
 #### 开始之前 (Before You Begin)
 
 - Familiarize yourself with the following:
    熟悉以下内容
-    - The [Solana](https://docs.solana.com/clusters) network.
+    - The [Solana](https://docs.solana.com/clusters) network.  
        [Solana](https://docs.solana.com/clusters)网络
 
-    - MetaMask.
+    - [MetaMask](/01About/02Terminology#metamask).
 
-The MetaMask wallet must be installed on your device and can be accessed from the browser you are using.
+- The [MetaMask](/01About/02Terminology#metamask) wallet must be installed on your device and can be accessed from the browser you are using.  
+	[MetaMask](/01About/02Terminology#metamask) 钱包必须安装在您的设备上，并且可以从您使用的浏览器访问。
 
-MetaMask 钱包必须安装在您的设备上，并且可以从您使用的浏览器访问。
-
-Read the guide How to Connect MetaMask to Solana's Network.
-阅读此文。
+Read the guide [How to Connect MetaMask to Solana's Network](/02Wallets/01settingup).  
+[阅读此文](/02Wallets/01settingup)。
 
 #### NeonSwap Overview
 
-_NeonSwap is open-source service forked from Uniswap V2 and modified to work with the Neon EVM._
+_NeonSwap is open-source service forked from [Uniswap V2](https://uniswap.org/blog/uniswap-v2) and modified to work with the Neon EVM._
 
-_NeonSwap 是从 Uniswap V2 分叉出来的开源服务，经过修改以与 Neon EVM 一起使用。_
+_NeonSwap 是从 [Uniswap V2](https://uniswap.org/blog/uniswap-v2) 分叉出来的开源服务，经过修改以与 Neon EVM 一起使用。_
 
 NeonSwap is an open-source dApp whose main function is to provide the services required to deploy Ethereum contracts on the Neon EVM. In Ethereum, transactions such as exchanging one token for another require the deployment of contracts. These contracts operate using their specific services and cannot be deployed outside of this environment.
 
@@ -42,9 +41,9 @@ We want to demonstrate that our Neon EVM product allows you to transfer your app
 
 我们想要阐明: Neon EVM 产品允许您将应用从以太坊转移到 Solana，并确保它们可靠运行。 NeonSwap 基础架构向Neon EVM 上的应用以及独立服务器上的swap接口提供全面支持。无需更改即可使用 NeonSwap 服务移植应用。
 
->NeonSwap service provides an opportunity for Ethereum developers to migrate their applications to the Neon EVM without any difficulties.
+>[NeonSwap](/01About/02Terminology#neonswap) service provides an opportunity for Ethereum developers to migrate their applications to the Neon EVM without any difficulties.
 >
->NeonSwap 服务给以太坊开发人员提供了一个机会，可以毫无困难地将他们的应用迁移到 Neon EVM。
+>[NeonSwap](/01About/02Terminology#neonswap) 服务给以太坊开发人员提供了一个机会，可以毫无困难地将他们的应用迁移到 Neon EVM。
 
 #### 步骤 (Steps)
 
@@ -58,7 +57,7 @@ As an example, this tutorial outlines the exchange of ETH-\>USDT tokens.
 
 ##### 步骤 1. 打开 NeonSwap 应用程序并连接您的钱包 (Step 1. Open the NeonSwap application and connect your wallet)
 
-Go to the NeonSwap page to call the NeonSwap application. Before you can make a swap, you need to connect your wallet. Click `Connect Wallet` on the swap screen.
+Go to the [NeonSwap](/01About/02Terminology#neonswap) page to call the NeonSwap application. Before you can make a swap, you need to connect your wallet. Click `Connect Wallet` on the swap screen.
 
 进入 NeonSwap 页面调用 NeonSwap 应用程序。在进行交换之前，您需要连接您的钱包。单击交换屏幕上的 `连接钱包(Connect Wallet)` 。
 
@@ -119,16 +118,16 @@ In our case, we exchange ETH tokens for USDT tokens. Let's specify the number of
 Before you can submit this exchange, you need to understand the following:
 在提交此交换之前，您需要了解以下内容：
 
-- `Price` --- the price at which the exchange is possible
+- `Price` --- the price at which the exchange is possible  
    `价格` --- 可以兑换的价格
 
-- `Minimum received` --- the minimum amount of tokens (in our case, USDT) you will receive if the trade goes through. The trade will fail if the price deviates too much during the transaction (also known as slippage).
-   `最少可获得` --- 如果交易完成，您将收到的最低代币数量（在我们的例子中是 USDT）。如果在交易过程中价格偏离太多（也称为滑点），交易将失败。
+- `Minimum received` --- the minimum amount of tokens (in our case, USDT) you will receive if the trade goes through. The trade will fail if the price deviates too much during the transaction (also known as [slippage](/01About/02Terminology#滑点slippage).  
+   `最少可获得` --- 如果交易完成，您将收到的最低代币数量（在我们的例子中是 USDT）。如果在交易过程中价格偏离太多（也称为[滑点](/01About/02Terminology#滑点slippage)），交易将失败。
 
-- `Price impact` --- tells you how much your swap will affect this token's price. This value can be seen as a loss you will take on the swap. The closer this number is to zero, the better.
+- `Price impact` --- tells you how much your swap will affect this token's price. This value can be seen as a loss you will take on the swap. The closer this number is to zero, the better.  
    `价格影响` --- 告诉您的swap会对这个代币的价格产生多大的影响。这个值可以被视为您将在swap中承担的损失。这个数字越接近零越好。
 
-- `Liquidity Provider Fee` --- the fee you will pay for this transaction. NeonSwap charges a 0.03 % fee of the total transaction amount. This fee is expressed in the token you are selling (in our case, ETH).
+- `Liquidity Provider Fee` --- the fee you will pay for this transaction. NeonSwap charges a 0.03 % fee of the total transaction amount. This fee is expressed in the token you are selling (in our case, ETH).  
    `流动性提供者费用` --- 您将为此交易支付的费用。 NeonSwap 收取总交易金额的 0.03% 的费用。此费用以您卖出的代币（在我们的例子中为 ETH）表示。
 
 Once you are ready to perform the exchange click `Swap`. A confirmation window will pop up with details of the exchange. If the conditions are accepted, click `Confirm Swap`. A request will be sent to MetaMask to `confirm` the transaction.
@@ -170,15 +169,15 @@ Click the cogwheel icon. The window `Transaction Settings` will pop up on the sc
 Transaction settings:
 交易设定
 
-- `Slippage tolerance` --- the allowable amount of price change. It means that the order is fulfilled at a price different from what you expected. If it exceeds the tolerance level selected, the transaction will not go through. If you are trading during high volatility, you may want to increase this value. Increasing the transaction speed can help you to reduce the chances of high slippage.
-   `滑点容忍度` --- 能接收的价格变化量。这意味着订单的履行价格与您的预期不同。如果超过容差水平，交易就不会通过。如果您在高波动期间进行交易，则可能需要增加此值。提升交易速度可以帮助您减少高滑点的机会。
+- `Slippage tolerance` --- the allowable amount of price change. It means that the order is fulfilled at a price different from what you expected. If it exceeds the tolerance level selected, the transaction will not go through. If you are trading during high volatility, you may want to increase this value. Increasing the transaction speed can help you to reduce the chances of high [slippage](/01About/02Terminology#滑点slippage).  
+   `滑点容忍度` --- 能接收的价格变化量。这意味着订单的履行价格与您的预期不同。如果超过容差水平，交易就不会通过。如果您在高波动期间进行交易，则可能需要增加此值。提升交易速度可以帮助您减少高[滑点](/01About/02Terminology#滑点slippage)的机会。
 
-- `Transaction deadline` --- allows the transaction to automatically cancel if it is taking too long to process
+- `Transaction deadline` --- allows the transaction to automatically cancel if it is taking too long to process  
    `交易截止日间` --- 允许交易在处理时间过长时自动取消。
 
-- `Toggle Expert Mode` --- disables the confirmation screen and removes slippage limits. Enabling this mode is not recommended unless you fully understand the risks.
-   `专家模式` --- 禁用确认屏幕并移除滑点限制。除非您完全了解风险，否则不建议启用此模式。
+- `Toggle Expert Mode` --- disables the confirmation screen and removes [slippage](/01About/02Terminology#滑点slippage) limits. Enabling this mode is not recommended unless you fully understand the risks.  
+   `专家模式` --- 禁用确认屏幕并移除[滑点](/01About/02Terminology#滑点slippage)限制。除非您完全了解风险，否则不建议启用此模式。
 
 
-`Disable Multihops` --- disables complex conversion paths. For example, if there is not enough liquidity in the "A-\>B" token pair, then the algorithm can involve other tokens to find the "A-\>C-\>B" intermediate route and make an exchange for you. This action requires more network fees because several smart contracts are involved.
+- `Disable Multihops` --- disables complex conversion paths. For example, if there is not enough liquidity in the "A-\>B" token pair, then the algorithm can involve other tokens to find the "A-\>C-\>B" intermediate route and make an exchange for you. This action requires more network fees because several smart contracts are involved.  
 `禁用多路径` --- 禁用复杂的转换路径。例如，如果 "A-\>B" 代币对中没有足够的流动性，那么算法可以让其他代币找到 "A-\>C-\>B" 中间路径来为您交换。此操作需要更多的网络费用，因为涉及多个智能合约。

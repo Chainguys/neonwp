@@ -33,9 +33,9 @@ Neon EVM运营方需要以下工具：
 - A Solana account (wallet) funded with SOL tokens.  
    有充足SOL代币的Solana钱包
 
-See details [here](#_运营方简要说明(Quick_Operator's_Guide)).
+See details [here](../06operating/02running_a_poxy_server).
 
-细节可以参考[此处](#_运营方简要说明(Quick_Operator's_Guide))
+细节可以参考[此处](../06operating/02running_a_poxy_server)
 
 #### 用户如何为使用Neon EVM 上部署的dApps付费?(How do Neon EVM users pay for using dApps deployed on Neon EVM?)
 

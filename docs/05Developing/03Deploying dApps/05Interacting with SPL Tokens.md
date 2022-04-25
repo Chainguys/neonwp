@@ -47,10 +47,10 @@ Functionality of interface modules:
 - `decimals() ---` Returns the number of decimals used to get its user representation. For example, if `decimals` equals 2, a balance of 505 tokens should be displayed to a user as 5,05 (505 / 10 \* 2).  
    `小数位() ---` 返回用于获取其用户代表性的小数位数。例如，如果小数等于 2，则应向用户显示 505 个代币的余额为 5,05 (505 / 10 \* 2)。
 
-- `totalSupply() ---` Returns the amount of tokens in existence.
+- `totalSupply() ---` Returns the amount of tokens in existence.  
    `总供给() ---` 返回代币存在总量。
 
-- `balanceOf(address account) ---` Returns the amount of tokens owned by the `account`.
+- `balanceOf(address account) ---` Returns the amount of tokens owned by the `account`.  
    `余额(地址账户) ---` 返回`账户`拥有的代币数量。
 
 - `allowance(address owner, address spender) ---` Returns the remaining number of tokens that a `spender` will be allowed to spend on behalf of the `owner` through `transferFrom`. This is zero by default.  

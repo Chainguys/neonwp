@@ -10,19 +10,22 @@ Contracts written in the Solidity language cannot work in Solana if they contain
 
 用 Solidity 语言编写的合约如果包含对以下预编译合约的调用，则无法在 Solana 中运行：
 
-- **_bigModExp_** — Used for efficient RSA verification inside of EVM, as well as other forms of number theory-based cryptography.  
-   **_bigModExp_** —用于 EVM 内部的高效 RSA 验证，以及其他形式的基于数论的密码学。
+- **_[bigModExp](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-198.md)_** — Used for efficient [RSA](/01About/02Terminology#rsarivest-shamir-adleman) verification inside of EVM, as well as other forms of number theory-based cryptography.  
+   **_[bigModExp](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-198.md)_** —用于 EVM 内部的高效 [RSA](/01About/02Terminology#rsarivest-shamir-adleman) 验证，以及其他形式的基于数论的密码学。
 
-- **_bn256Add_** — Performs addition on the elliptic curve operations.  
-   **_bn256Add_** —对椭圆曲线操作进行加法运算。
+- **_[bn256Add](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-196.md)_** — Performs addition	 on the elliptic curve operations.  
+   **_[bn256Add](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-196.md)_** —对椭圆曲线操作进行加法运算。
 
-- **_bn256ScalarMult_** — Performs scalar multiplication on the elliptic curve operations.  
-   **_bn256ScalarMult_** — 对椭圆曲线操作执行标量乘法。
+- **_[bn256ScalarMult](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-196.md)_** — Performs scalar multiplication on the elliptic curve operations.  
+   **_[bn256ScalarMult](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-196.md)_** — 对椭圆曲线操作执行标量乘法。
 
-- **_bn256Pairing_** — Elliptic curve pairing operations to perform zkSNARKs verification within the block gas limit.  
-   **_bn256Pairing_** — 椭圆曲线配对操作，在区块的gas上限内执行 zkSNARKs 验证。
+- **_[bn256Pairing](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-197.md)_** — Elliptic curve pairing operations to perform [zkSNARKs](/01About/02Terminology#zk-snark)  verification within the block gas limit.  
+   **_[bn256Pairing](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-197.md)_** — 椭圆曲线配对操作，在区块的gas上限内执行 [zkSNARKs](/01About/02Terminology#zk-snark) 验证。
 
 Neon EVM requires the implementation of system calls in Solana for these contracts.  
+
+
+
 
 Neon EVM 需要在 Solana 中为这些合约实现系统调用。
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 title: 单账号存储限制(Storage size limit for an account)
 ---
 
@@ -19,9 +19,9 @@ _Solution 2_. In Solana storage, it is proposed to increase the threshold value 
 
 _方案2_：在Solana存储中，增加账户大小的阈值，使其大于10MB。此解决方案的实施将由 Solana 开发人员提出
 
-The 10 MB limit means that about 100000 records can be used by the contract for its data. This limitation is set directly in Solana. It is large enough and not critical. At the startup of the MVP project, we do not expect contracts with sizes exceeding 10 MB to appear.
+The 10 MB limit means that about 100000 records can be used by the contract for its data. This limitation is set directly in Solana. It is large enough and not critical. At the startup of the [MVP](/01About/02Terminology#最小可行性产品minimum-viable-product-mvp) project, we do not expect contracts with sizes exceeding 10 MB to appear.
 
-10 MB 的限制意味着合约可以将大约 100000 条记录用于其数据。此限制直接在 Solana 中设置。它(其实)足够大而且不关键。在 MVP 项目启动时，我们预计不会出现大小超过 10 MB 的合约。
+10 MB 的限制意味着合约可以将大约 100000 条记录用于其数据。此限制直接在 Solana 中设置。它(其实)足够大而且不关键。在 [最小可行性产 (MVP)](/01About/02Terminology#最小可行性产品minimum-viable-product-mvp) 项目启动时，我们预计不会出现大小超过 10 MB 的合约。
 
 Therefore, in the first months of Neon EVM operation, the limit on the storage size allocated for one account will still remain the same 10 MB.
 

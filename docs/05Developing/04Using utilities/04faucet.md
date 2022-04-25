@@ -11,12 +11,14 @@ Using Faucet you can request Test NEON tokens on Solana devnet.
 
 ##### 步骤1 (Step 1)
 
-Set up MetsMask in accordance with Setting up MetaMask  
-按照设置 MetaMask 来设置 MetsMask
+Set up MetsMask in accordance with [Setting up MetaMask](http://localhost:3000/neonwp/02Wallets/01settingup)  
+按照[设置 MetaMask](http://localhost:3000/neonwp/02Wallets/01settingup)  来设置 MetsMask
 
 ##### 步骤2  (Step 2)
 
 Go to the page to request test tokens using the following [link](https://neonswap.live/#/get-tokens).  
+
+通过这个[连接](https://neonswap.live/#/get-tokens)获取测试代币。
 
 ##### 步骤3 (Step 3)
 

@@ -48,9 +48,9 @@ title: Neon怎样运行?(How does Neon work?)
 
 #### Neon如何与Solana交互(How does Neon EVM interact with Solana?)
 
-The alpha version of Neon EVM has an interface that can interact with [SPL Token](#_SPL代币（Solana_Program_Library) accounts. The beta version of Neon EVM will have interface that can read data from Solana accounts and will facilitate the integration of Neon EVM contracts with Oracles on Solana. In upcoming versions, Neon Labs has plans to impelement an interface for writing data to Solana accounts, which will allow the integration of Neon EVM contracts with Solana programs.
+The alpha version of Neon EVM has an interface that can interact with [SPL Token](/01About/02Terminology#spl代币spl-token) accounts. The beta version of Neon EVM will have interface that can read data from Solana accounts and will facilitate the integration of Neon EVM contracts with Oracles on Solana. In upcoming versions, Neon Labs has plans to impelement an interface for writing data to Solana accounts, which will allow the integration of Neon EVM contracts with Solana programs.
 
-Neon EVM 的 alpha 版有一个可以与[SPL Token代币](#_SPL代币（Solana_Program_Library) 账户交互的界面。 Neon EVM 的beta版将可以从接口读取 Solana 账户数据，并将促进 Neon EVM 合约与 Solana 上预言机集成。在即将发布的版本中，Neon Labs 计划引入一个将数据写入 Solana 帐户的接口，这将使得Neon EVM 合约与 Solana 程序集成。
+Neon EVM 的 alpha 版有一个可以与[SPL Token代币](/01About/02Terminology#spl代币spl-token) 账户交互的界面。 Neon EVM 的beta版将可以从接口读取 Solana 账户数据，并将促进 Neon EVM 合约与 Solana 上预言机集成。在即将发布的版本中，Neon Labs 计划引入一个将数据写入 Solana 帐户的接口，这将使得Neon EVM 合约与 Solana 程序集成。
 
 Neon EVM works as a smart contract on the Solana blockchain. The contract can interact with and call other smart contracts on Solana—for example, SPL tokens. Neon EVM is able to access data stored on Solana accounts. Furthermore, every Ethereum-like account within Neon EVM is stored in a corresponding Solana account.
 
@@ -58,9 +58,9 @@ Neon EVM 作为 Solana 区块链上的智能合约。该合约可以与 Solana �
 
 #### Neon EVM合约如何运行?(How does the Neon EVM contract work?)
 
-Neon EVM is a smart contract on Solana acting as the Ethereum Virtual Machine. It is compiled into Berkeley Packet Filter bytecode, a format that can be executed on Solana.This allows Neon EVM to receive Solana transactions with wrapped Ethereum-like transactions and process them on Solana according to Ethereum rules.
+Neon EVM is a smart contract on Solana acting as the Ethereum Virtual Machine. It is compiled into [Berkeley Packet Filter](/01About/02Terminology#伯克利包过滤器berkeley-packet-filter-bpf) bytecode, a format that can be executed on Solana.This allows Neon EVM to receive Solana transactions with wrapped Ethereum-like transactions and process them on Solana according to Ethereum rules.
 
-Neon EVM 是 Solana 上的智能合约，充当以太坊虚拟机。它被编译成 BPF 字节码，这是一种可在 Solana 上执行的格式。这使得 Neon EVM 可以接收经过封装的，类似以太坊交易的 Solana 交易，并根据以太坊规则在 Solana 上处理它们。
+Neon EVM 是 Solana 上的智能合约，充当以太坊虚拟机。它被编译成 [BPF](/01About/02Terminology#伯克利包过滤器berkeley-packet-filter-bpf) 字节码，这是一种可在 Solana 上执行的格式。这使得 Neon EVM 可以接收经过封装的，类似以太坊交易的 Solana 交易，并根据以太坊规则在 Solana 上处理它们。
 
 #### Neon EVM 如何确保交易并行执行?(How does Neon EVM enable the parallel execution of transactions?)
 
@@ -177,8 +177,9 @@ When using this method, it’s important to understand that the sender (Neon use
 
 使用此方法时，重要的是要明确发件人（Neon 用户）负责以下项目：
 
-- In cases where the Neon transaction is too large, it has to be executed [iteratively](#_代币流通(Token_circulation)).  
-   Neon 交易过大的情况下，必须[迭代执行](#_代币流通(Token_circulation))。
+- In cases where the Neon transaction is too large, it has to be executed [iteratively](../12其他补充/01Transaction%20Value%20token).  
+   Neon 交易过大的情况下，必须[迭代执行](../12其他补充/01Transaction%20Value%20token)。
+
 
 - A list of all Neon accounts and contracts corresponding to the Neon transaction needs to be determined on the client side.  
    客户端要确定Neon 交易对应的所有 Neon 账户和合约的列表。

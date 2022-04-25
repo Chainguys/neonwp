@@ -67,7 +67,7 @@ Solana区块链提供：
 - The ability to increase the number of nodes in the network without reducing the performance of the network as a whole.  
    节点增加而不降低网络整体性能
 
-- The capability to build in coding languages C, C++, and Rust.
+- The capability to build in coding languages C, C++, and Rust.  
    可以使用C, C++和Rust开发
 
 ### 目标(The Goal)
@@ -106,7 +106,7 @@ To achieve the goal, the following solution was proposed and implemented by the 
 The block diagram of the solution is shown in Fig. 1.   
 该解决方案的如图1所示。
 
-![[Pasted image 20220420101455.png]]  
+![](05.png)  
 
 (图 1)
 
@@ -197,7 +197,7 @@ A user calls a client that generates a transaction and sends it to the proxy, wh
 - **Recipient:** address of the recipient.  
    **接收人**：接收人地址。
 
-![[Pasted image 20220420101739.png]]  
+![](06.png)
 
 (图 2)
 

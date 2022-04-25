@@ -45,17 +45,17 @@ As a developer, you should begin by exploring the Neon EVM framework and setting
 
 If you are new to Neon EVM development, we recommend starting from the very beginning and moving forward in order through each of the topics.
 
-[🔘 Web2 versus Web3](http://localhost:3000/neonwp/09Architecture/04coreaspects/07Web3%20concept)--- Describes the fundamental differences between Web2 and Web3.  
-[Web2 对 Web3](http://localhost:3000/neonwp/09Architecture/04coreaspects/07Web3%20concept) --- 描述 Web2 和 Web3 之间的根本区别。
+[🔘 Web2 versus Web3](../09Architecture/04coreaspects/07Web3%20concept)--- Describes the fundamental differences between Web2 and Web3.  
+[Web2 对 Web3](../09Architecture/04coreaspects/07Web3%20concept) --- 描述 Web2 和 Web3 之间的根本区别。
 
-[🔘 Ethereum account](http://localhost:3000/neonwp/09Architecture/04coreaspects/07Web3%20concept) --- An entity with an ETH balance that can send transactions on Ethereum.  
-[以太坊账户](http://localhost:3000/neonwp/09Architecture/04coreaspects/01Ethereum%20account) ------拥有ETH余额的实体/账户，可以在以太坊上发送交易。
+[🔘 Ethereum account](../09Architecture/04coreaspects/07Web3%20concept) --- An entity with an ETH balance that can send transactions on Ethereum.  
+[以太坊账户](../09Architecture/04coreaspects/01Ethereum%20account) ------拥有ETH余额的实体/账户，可以在以太坊上发送交易。
 
-[🔘 Ethereum transaction](http://localhost:3000/neonwp/09Architecture/04coreaspects/06Ethereum%20transaction) --- A cryptographically signed instruction from an account.  
-[以太坊交易](http://localhost:3000/neonwp/09Architecture/04coreaspects/06Ethereum%20transaction)------来自账户的加密签名指令。
+[🔘 Ethereum transaction](../09Architecture/04coreaspects/06Ethereum%20transaction) --- A cryptographically signed instruction from an account.  
+[以太坊交易](../09Architecture/04coreaspects/06Ethereum%20transaction)------来自账户的加密签名指令。
 
-[🔘 Block](http://localhost:3000/neonwp/09Architecture/04coreaspects/02Block) --- A special structure for recording a group of transactions in blockchain systems.  
-[区块](http://localhost:3000/neonwp/09Architecture/04coreaspects/02Block) ------区块链系统中记录一组交易的特殊结构。
+[🔘 Block](../09Architecture/04coreaspects/02Block) --- A special structure for recording a group of transactions in blockchain systems.  
+[区块](../09Architecture/04coreaspects/02Block) ------区块链系统中记录一组交易的特殊结构。
 
-[🔘 Gas](http://localhost:3000/neonwp/09Architecture/04coreaspects/03gas) --- Computational power represented in tokens. Required to process transactions.  
-	[Gas](http://localhost:3000/neonwp/09Architecture/04coreaspects/03gas)------以代币表示的算力。处理交易时必须(使用)。
+[🔘 Gas](../09Architecture/04coreaspects/03gas) --- Computational power represented in tokens. Required to process transactions.  
+	[Gas](../09Architecture/04coreaspects/03gas)------以代币表示的算力。处理交易时必须(使用)。

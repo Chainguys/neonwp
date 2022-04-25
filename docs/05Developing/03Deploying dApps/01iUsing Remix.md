@@ -176,5 +176,6 @@ Congratulations! You can now call methods of the helloWorld smart contract deplo
 (图13:调用智能合约方法 Calling the smart contract methods)
 
 >
->参考连接(Useful links)
->**https://ethereum.org/en/developers/tutorials/deploying-your-first-smart-contract/
+>Useful links  
+>参考连接  
+>https://ethereum.org/en/developers/tutorials/deploying-your-first-smart-contract/

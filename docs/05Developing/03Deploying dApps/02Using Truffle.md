@@ -18,7 +18,7 @@ Our main goal with Truffle is to make it easier for developers to deploy and deb
 我们使用 Truffle 的主要目标是让开发人员更容易在 Neon EVM 中部署和调试智能合约。
 
 With Truffle, you get:  
-使用Truffle，您可以:
+使用Truffle，您可以:  
 
 - Simple setting of configuration parameters.  
    简单设置参数。
@@ -73,23 +73,23 @@ Initialize the project directory by running the following command:
 
 Once this operation is completed, you will have a project structure with the following items:
 
-完成此操作后，您将拥有一个包含以下的项目结构：
+完成此操作后，您将拥有一个包含以下的项目结构:  
 
 - `contracts/` --- Directory for Solidity contracts.  
 
-`contract/` --- Solidity 合约目录。
+	 `contract/` --- Solidity 合约目录。
 
 - `migrations/` --- Directory for scriptable deployment files.  
 
-`migrations/` --- 可编辑脚本的部署文件之目录。
+	`migrations/` --- 可编辑脚本的部署文件之目录。
 
 - `test/` --- Directory for test files for testing your contracts.  
 
-`test/` --- 用于测试合约的测试文件之目录。
+	`test/` --- 用于测试合约的测试文件之目录。
 
 - `truffle-config.js` --- Truffle configuration file.  
 
-`truffle-config.js` --- Truffle配置文件。
+	`truffle-config.js` --- Truffle配置文件。
 
 You can run truffle compile, truffle migrate and truffle test to compile your contracts, deploy them to the network, and run their associated unit tests.
 
@@ -217,7 +217,7 @@ The example of the configuration file for connecting Truffle to a proxy using th
 
 使用 Node.js 上的单向库(one-way library)，将 Truffle 连接到代理的配置文件的示例：
 
-```node
+```js
 const Web3 = require("web3");
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 

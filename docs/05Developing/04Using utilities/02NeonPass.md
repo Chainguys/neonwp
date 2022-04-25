@@ -10,6 +10,6 @@ Go to the [NeonPass](https://neonpass.live/) page to call the NeonPass applicati
 
 访问[NeonPass](https://neonpass.live/) 页面来调用NeonPass应用。
 
-Read more about NeonPass in [Token Transferring](#传输spl代币-transferring-spl-tokens).
+Read more about NeonPass in [Token Transferring](/04tokentransfer/02Transferring%20SPL%20Tokens).
 
-更多内容请参考[代币传输](#传输spl代币-transferring-spl-tokens)
+更多内容请参考[代币传输](/04tokentransfer/02Transferring%20SPL%20Tokens)

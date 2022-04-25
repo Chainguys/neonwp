@@ -17,7 +17,8 @@ For a user's transaction to be executed quickly, it must be finalized quickly. T
 The architectural solution based on Neon EVM is presented in Fig. 1.  
 基于 Neon EVM 的架构解决方案如图1所示：
 
-![[Pasted image 20220420092319.png]]  
+![](01.png)    
+
 (图 1）
 
   
@@ -95,7 +96,7 @@ Below is a list of the main Neon Web3 Proxy features that are implemented in the
        存放用于迭代执行交易之资金的Neon EVM账户
     - A list of accounts that are participating in the execution of Neon transactions (formed according to Solana rules)  
        参与执行Neon交易的账户列表(根据 Solana 规则形成)
-    - The number of steps per iteration of a Neon transaction
+    - The number of steps per iteration of a Neon transaction  
        Neon交易每次迭代的步长
 
 - Executing read-only Solidity methods of contracts  
@@ -107,7 +108,7 @@ Below is a list of the main Neon Web3 Proxy features that are implemented in the
 - Giving users a method to switch a token to be used for gas payment  
    为用户提供一种切换代币类型来支付gas费用的方法
 
-- Giving users a method to execute an Neon transaction without a test run.  
+- Giving users a method to execute an Neon transaction without a test run.    
    为用户提供无需试运行即可执行 Neon 交易的方法。
 
 #### Neon EVM
@@ -168,7 +169,8 @@ Conventionally, the processing of a transaction is divided into several steps (i
 常规来说，交易的处理分为几个步骤(迭代)。步骤的数量可能会根据完成交易所需的操作数量而有所不同。只有在上一步成功完成后才开始下一步(串行)，如图2所示：
 
 
-![[Pasted image 20220420093339.png]]  
+![](02.png)  
+
 (图 2)
 
   
@@ -254,7 +256,8 @@ The interaction between the SPL token and ERC-20 TKN is shown in Fig.3.
 
 SPL 代币与 ERC-20 TKN 之间的交互如图3所示。
 
-![[Pasted image 20220420093700.png]]  
+![](03.png)  
+
 图 3
 
 There are two user balances:  
@@ -311,7 +314,8 @@ Fig. 4 shows the process for transferring tokens between Solana and Ethereum.
 图 4 显示了在 Solana 和以太坊之间转移代币的过程。
 
 
-![[Pasted image 20220420093840.png]]
+![](04.png)  
+
 (图 4)
 
 Ethereum tokens are generated in accordance with the ERC-20 standard. Therefore, to transfer tokens between the Solana and Ethereum blockchains, a separate ERC-20 wrapper must be deployed for each Solana token. The ERC-20 wrapper’s job is to ensure that the Solana applications interact with EVM (Solidity, Vyper, etc.) bytecode contracts, as well as to transfer funds in Solana tokens using Ethereum wallets such as MetaMask.

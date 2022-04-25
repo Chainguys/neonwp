@@ -26,13 +26,11 @@ A proxy operator’s main task is to install software on a server to accept a tr
 - Configuring a proxy server to perform the following operations:  
    配置代理服务器来执行以下操作：
 
-- Receiving requests over Web3 API protocol.  
-   通过Web3 API协议接收请求。
-
-- Shaping responses using Web3 API protocol.  
-   使用 Web3 API 协议(编辑)塑造响应。
-
-- Converting transactions to Solana format.  
+	- Receiving requests over Web3 API protocol.  
+   通过Web3 API协议接收请求。  
+	- Shaping responses using Web3 API protocol.  
+   使用 Web3 API 协议(编辑)塑造响应。  
+	- Converting transactions to Solana format.  
    将交易转换为 Solana 格式。
 
 - Connecting a proxy server to a Solana cluster RPC endpoint.  
@@ -56,7 +54,7 @@ After you have chosen the node (Neon EVM proxy) that meets the listed recommenda
 Make sure that you have a daemon running. If you see something like:  
 确保守护进程已经运行。如果你看到:
 
-```
+```bash
 $ docker info
 
 Cannot connect to the Docker daemon at <docker.sock>. Is the docker daemon running?
@@ -65,7 +63,7 @@ Cannot connect to the Docker daemon at <docker.sock>. Is the docker daemon runni
 you need to run the daemon and PostgreSQL services first:  
 那你需要先运行守护进程和PostgreSQL：
 
-```
+```bash
 $ sudo systemctl start docker
 $ sudo docker run --rm -ti --network=host -e POSTGRES_HOST=<localhost|postgres> -e POSTGRES_DB=<database> -e POSTGRES_USER=<username> -e POSTGRES_PASSWORD=<password> --name=postgres postgres:14.0
 ```
@@ -100,7 +98,7 @@ $ sudo docker run --rm -ti --network=host -e POSTGRES_HOST=<localhost|postgres> 
 _Example_:  
 _举例_：
 
-```
+```bash
 $ sudo docker run --rm -ti --network=host -e POSTGRES_DB=neon-db -e POSTGRES_USER=neon-proxy -e POSTGRES_PASSWORD=neon-proxy-pass --name=postgres postgres:14.0
 ```
 
@@ -110,7 +108,7 @@ Create and run a proxy container on the daemon. When starting Docker, you need t
 
 在守护进程上创建并运行代理容器。启动 Docker 时，需要设置 _CONFIG_ 环境变量，可以采用以下值之一：local、devnet、testnet。
 
-```
+```bash
 $ sudo docker run --rm -ti --network=host -e CONFIG=<network> -e POSTGRES_DB=<database> -e POSTGRES_USER=<username> -e POSTGRES_PASSWORD=<password> -v <path-to-keypair-file/id.json>:/root/.config/solana/id.json neonlabsorg/proxy:v0.5.1
 ```
 
@@ -136,7 +134,7 @@ This command line will automatically perform all the actions required to launch 
 _Example:  
 举例_：
 
-```
+```bash
 $ sudo docker run --rm -ti --network=host -e CONFIG=devnet -e POSTGRES_DB=neon-db -e POSTGRES_USER=neon-proxy -e POSTGRES_PASSWORD=neon-proxy-pass neonlabsorg/proxy:v0.5.1
 ```
 
@@ -191,9 +189,9 @@ Setting the NEON_CLI_TIMEOUT time too short may not be sufficient to complete a 
 
 **CANCEL_TIMEOUT**
 
-This parameter limits the time (in slots) for blocking an account. If the blocking time for the account exceeds the time specified in this parameter, an attempt will be made to cancel the transaction that blocked this account.
+This parameter limits the time (in [slots](/01About/02Terminology#间隔时段slot)) for blocking an account. If the blocking time for the account exceeds the time specified in this parameter, an attempt will be made to cancel the transaction that blocked this account.
 
-此参数限制封锁帐户的时间(以slots为单位)。如果账户的封锁时间超过了此参数中指定的时间，将尝试取消封锁该账户的交易。
+此参数限制封锁帐户的时间(以[slots]((/01About/02Terminology#间隔时段slot))为单位)。如果账户的封锁时间超过了此参数中指定的时间，将尝试取消封锁该账户的交易。
 
 **MINIMAL_GAS_PRICE**
 

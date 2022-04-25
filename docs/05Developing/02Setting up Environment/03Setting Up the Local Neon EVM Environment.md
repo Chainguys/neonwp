@@ -15,7 +15,7 @@ All the services in the `Neon EVM environment` presented by the docker-compose c
 
 Docker-compose 配置文件提供的 `Neon EVM 环境` 中的所有服务，都可以替换为对应的实验版本，以便独立开发和测试每个服务。为了解决问题， Neon工程师必须要能够根据当前需求，将任何服务替换为定制服务。欢迎您根据需要更改以下 docker-compose 配置文件。此外，您可以将它们完全放在一个 docker-compose 文件中，根据以下顺序提供依赖项很重要。
 
-Before you start to build your local environment, make sure you have all the prerequisites.
+Before you start to build your local environment, make sure you have all the [prerequisites](#先决条件Prerequisites).
 
 在开始构建本地环境之前，请确保您具备所有先决条件。
 
@@ -30,11 +30,11 @@ Before you start to build your local environment, make sure you have all the pre
 - **Solana Tool Suite** --- for interaction with Solana, we need to install Solana CLI Tools: <https://docs.solana.com/ru/cli/install-solana-cli-tools>  
    **Solana Tool Suite** --- 为了与 Solana 交互，我们需要安装 Solana CLI > Tools：<https://docs.solana.com/ru/cli/install-solana-cli-tools>
 
-- **A Chromium-based browser** --- for MetaMask and Remix  
-   **基于 Chromium 的浏览器** ---用于 MetaMask 和 Remix
+- **A Chromium-based browser** --- for [MetaMask](https://metamask.io/) and [Remix](https://remix.ethereum.org/)   
+   **基于 Chromium 的浏览器** ---用于 [MetaMask](https://metamask.io/) 和 [Remix](https://remix.ethereum.org/)
 
-- **Node package manager** --- Node.js/npm to interact with he Neon EVM with Web3 and Eth modules.  
-   **节点包管理器** --- Node.js/npm 与带有 Web3 和 Eth 模块的 Neon EVM > 交互。
+- **Node package manager** --- [Node.js/npm](https://www.w3schools.com/nodejs/nodejs_npm.asp) to interact with he Neon EVM with [Web3](https://www.npmjs.com/package/web3) and [Eth](https://www.npmjs.com/package/web3-eth) modules.  
+   **节点包管理器** --- [Node.js/npm](https://www.w3schools.com/nodejs/nodejs_npm.asp) 与带有 [Web3](https://www.npmjs.com/package/web3) 和 [Eth](https://www.npmjs.com/package/web3-eth) 模块的 Neon EVM 交互。
 
 #### 配置Neon本地工作环境 (Setting up the Neon Local Workspace Environment)
 
@@ -560,3 +560,6 @@ The Truffle state can be reset by redeploying it in the following way:
 ```bash
 $ truffle compile --network solana --reset
 ```
+---
+_Deploy your Solidity programs on the [Solana](https://solana.com/)-driven [Neon EVM](https://neon-labs.org/)_.  
+_在[Solana](https://solana.com/)驱动的 [Neon EVM](https://neon-labs.org/)_上部署您的Solidity程序！

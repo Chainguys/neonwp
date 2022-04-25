@@ -77,16 +77,16 @@ Click `Add Network` in the top-right corner.
 
 To connect to the Solana [Devnet](https://docs.solana.com/clusters#devnet) cluster, in the window opened fill in the fields, for example:
 
-要请在打开的窗口中填写字段以连接到 Solana [Devnet](https://docs.solana.com/clusters#devnet) 集群，例如：
+要在打开的窗口中填写字段来连接到 Solana [Devnet](https://docs.solana.com/clusters#devnet) 集群，例如：
 
-- `网络名称(Network Name) :` \"remote proxy --- solana devnet\"    
+- `网络名称(Network Name) :` \"remote proxy --- solana devnet\"  
 - `New RPC URL:` https://proxy.devnet.neonlabs.org/solana  
 - `链ID(Chain ID):` 245022926  
 - `代币符号 (Currency Symbol):` NEON  
 
 To connect to the Solana Testnet cluster, in the window opened fill in the fields, for example:
 
-要请在打开的窗口中填写字段以连接到 Solana [Testnet](https://docs.solana.com/clusters#testnet)集群，例如：
+要在打开的窗口中填写字段以来连接到 Solana [Testnet](https://docs.solana.com/clusters#testnet)集群，例如：
 
 - `网络名称(Network Name):` \"remote proxy --- solana testnet\"  
 - `New RPC URL:` https://proxy.testnet.neonlabs.org/solana  
@@ -99,7 +99,7 @@ To connect to the Solana Testnet cluster, in the window opened fill in the field
 
 To connect to the Solana [Mainnet](https://docs.solana.com/clusters#mainnet-beta) cluster, in the window opened fill in the fields, for example:
 
-要请在打开的窗口中填写字段以连接到 Solana [Mainnet](https://docs.solana.com/clusters#mainnet-beta)集群，例如：
+要在打开的窗口中填写字段来连接到 Solana [Mainnet](https://docs.solana.com/clusters#mainnet-beta)集群，例如：
 
 - `网络名称(Network Name) :` \"remote proxy --- solana mainnet-beta\"  
 - `New RPC URL:` (will be published after MVP on Mainnet)  
@@ -224,9 +224,9 @@ $ sudo docker run --rm -ti --network=host -e CONFIG=<network> -e POSTGRES_DB=neo
 - `\--name proxy ---` specify the proxy name.  
    `\--name proxy ---` 指定代理的名字。
 
-If you is not registered as an operator, you can only use test public keys (the list of available public keys is given in the table). You do not need to specify the key via the -v flag, since it is already hard-coded in Devnet/Testnet containers. Use the following command:
+If you is not registered as an operator, you can only use test public keys (the list of available public keys is given in the [table](/08env/02Neon%20Proxy%20RPC%20Endpoints)). You do not need to specify the key via the -v flag, since it is already hard-coded in Devnet/Testnet containers. Use the following command:
 
-如果您未注册为运营方，则只能使用测试公钥（可用公钥列表在表中给出）。您不需要通过 -v 标志指定密钥，因为它已经在 Devnet/Testnet 容器中进行了硬编码。使用以下命令：
+如果您未注册为运营方，则只能使用测试公钥（可用公钥列表在[总表](/08env/02Neon%20Proxy%20RPC%20Endpoints)）。您不需要通过 -v 标志指定密钥，因为它已经在 Devnet/Testnet 容器中进行了硬编码。使用以下命令：
 
 ```bash
 sudo docker run --rm -ti --network=host -e CONFIG=<network> -e POSTGRES_DB=neon-db -e POSTGRES_USER=neon-proxy -e POSTGRES_PASSWORD=neon-proxy-pass neonlabsorg/proxy:v0.5.1

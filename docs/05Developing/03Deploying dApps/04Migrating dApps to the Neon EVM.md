@@ -3,17 +3,17 @@ sidebar_position: 4
 title: 向Neon EVM迁移dApps (Migrating dApps to the Neon EVM)
 ---
 
-The purpose of this document is to demonstrate to Ethereum users how easily their dApps can be ported to the Neon EVM. Using Neon Swap as an example, we wil show you how to run dApps on [*Solana*](https://docs.solana.com/introduction) without any software code changes.
+The purpose of this document is to demonstrate to Ethereum users how easily their dApps can be ported to the Neon EVM. Using [*Neon Swap*](/01About/02Terminology#neonswap) as an example/, we wil show you how to run dApps on [*Solana*](https://docs.solana.com/introduction) without any software code changes.
 
-本文档的目的是向以太坊用户展示他们的 dApp 可以多么容易地移植到 Neon EVM。以 Neon Swap 为例，我们将向您展示如何在 [*Solana*](https://docs.solana.com/introduction)上运行 dApp，而无需更改任何代码。
+本文档的目的是向以太坊用户展示他们的 dApp 可以多么容易地移植到 Neon EVM。以 [Neon Swap](/01About/02Terminology#neonswap) 为例，我们将向您展示如何在 [*Solana*](https://docs.solana.com/introduction)上运行 dApp，而无需更改任何代码。
 
 Every dApp includes a contract and a software supporting that contract. In the Neon EVM, all dApps are deployed via Neon proxies. To deploy a dApp, it needs to send a request to a proxy, after which the proxy will automatically deploy contracts of the dApp in the Neon EVM environment. Contracts are loaded into a chain, and the software is deployed on a separate server for providing users interaction with these contracts.
 
 每个 dApp 都包含一个合约和支持该合约的软件。在 Neon EVM 中，所有 dApp 都通过 Neon 代理部署。部署 dApp 需要向代理发送请求，代理会自动在 Neon EVM 环境中部署 dApp 的合约。合约被加载到链上，软件则部署在单独的服务器上，来为用户与这些合约交互。
 
-In this description we show you how you can port Uniswap services to the Neon EVM environment. Since we do not have native keys to Uniswap, we will use a fork of Uniswap-V2 called NeonSwap.
+In this description we show you how you can port Uniswap services to the Neon EVM environment. Since we do not have native keys to Uniswap, we will use a fork of Uniswap-V2 called [NeonSwap](/01About/02Terminology#neonswap).
 
-在本描述中，我们将向您展示如何将 Uniswap 服务移植到 Neon EVM 环境。由于我们没有 Uniswap 的本地密钥，我们将使用 Uniswap-V2 的一个分支，称为 NeonSwap。
+在本描述中，我们将向您展示如何将 Uniswap 服务移植到 Neon EVM 环境。由于我们没有 Uniswap 的本地密钥，我们将使用 Uniswap-V2 的一个分支，称为 [NeonSwap](/01About/02Terminology#neonswap)。
 
 Migrating dApps to the Neon EVM is done in three stages:  
 迁移需要分3阶段：
@@ -155,17 +155,17 @@ After we have got the addresses of the contracts loaded into the Neon EVM, we ca
 
 ##### NeonSwap 接口的更改 (Changes for the NeonSwap Interface)
 
-For the NeonSwap interface to function successfully in the Neon EVM, we made the following changes:
+For the [NeonSwap](/01About/02Terminology#neonswap) interface to function successfully in the Neon EVM, we made the following changes:
 
-为了在 Neon EVM 中成功运行 NeonSwap 接口，我们进行了以下更改：
+为了在 Neon EVM 中成功运行 [NeonSwap](/01About/02Terminology#neonswap) 接口，我们进行了以下更改:  
 
 - Added a new testnet to the adapted NeonSwap interface code. The name of the new network with the new chain-ID is registered in all places where it was used:  
-   向适配后的 NeonSwap 接口代码添加测试网。具有新链 ID > 的新网络的名称已在所有使用它的地方注册：
+   向适配后的 NeonSwap 接口代码添加测试网。具有新链 ID > 的新网络的名称已在所有使用它的地方注册:  
 
-- Added `ChainId LOCAL` to dependent libraries and sources.  
+  - Added `ChainId LOCAL` to dependent libraries and sources.  
    依赖库和源新增`ChainId LOCAL`。
 
-- ChainID, url was specified in the .env file.  
+  - ChainID, url was specified in the .env file.  
    ChainID, url 在.env 文件中指定。
 
 - For the new network, a set of the loaded contracts was registered. In the directory `node_modules`, the addresses of contracts in the sources and dependent libraries were replaced.  

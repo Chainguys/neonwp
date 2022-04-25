@@ -8,15 +8,15 @@ The Neon EVM doesn't support the following functions:
 
 Neon EVM不支持以下函数：
 
-`gas_price(&self)_**
+`gas_price(&self)`
 
-`block_hash(&self, number: U256)_**
+`block_hash(&self, number: U256)`
 
-`block_coinbase(&self)_**
+`block_coinbase(&self)`
 
-`block_dificulty(&self)_**
+`block_dificulty(&self)`
 
-`block_gas_limit(&self)_**
+`block_gas_limit(&self)`
 
 #### 为什么它们暂时不被支持?(Why are these features temporarily not supported)
 
