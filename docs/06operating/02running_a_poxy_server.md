@@ -189,9 +189,9 @@ Setting the NEON_CLI_TIMEOUT time too short may not be sufficient to complete a 
 
 **CANCEL_TIMEOUT**
 
-This parameter limits the time (in [slots](../01About/02Terminology#间隔时段slot)) for blocking an account. If the blocking time for the account exceeds the time specified in this parameter, an attempt will be made to cancel the transaction that blocked this account.
+This parameter limits the time (in [slots](/01About/02Terminology#间隔时段slot) for blocking an account. If the blocking time for the account exceeds the time specified in this parameter, an attempt will be made to cancel the transaction that blocked this account.
 
-此参数限制封锁帐户的时间(以[slots]((../01About/02Terminology#间隔时段slot))为单位)。如果账户的封锁时间超过了此参数中指定的时间，将尝试取消封锁该账户的交易。
+此参数限制封锁帐户的时间(以[slots](/01About/02Terminology#间隔时段slot)为单位)。如果账户的封锁时间超过了此参数中指定的时间，将尝试取消封锁该账户的交易。
 
 **MINIMAL_GAS_PRICE**
 

@@ -45,9 +45,9 @@ To connect to a proxy using Metamask follow the instruction [Installing and sett
 
 #### 用Truffle 连接到代理 (Connecting to a proxy using Truffle)
 
-To connect to a proxy using Truffle follow the instruction [Debugging Contracts via Truffle](/05Developing/03Deploying%20dApps/02Connecting%20to%20the%20Neon%20Proxy). You need to configure `truffle-config.js` by setting the HDWalletProvider library to the RPC URL selected from the [table](/08env/02Neon%20Proxy%20RPC%20Endpoints).
+To connect to a proxy using Truffle follow the instruction [Debugging Contracts via Truffle](/05Developing/03Deploying%20dApps/02Using%20Truffle). You need to configure `truffle-config.js` by setting the HDWalletProvider library to the RPC URL selected from the [table](/08env/02Neon%20Proxy%20RPC%20Endpoints).
 
-要使用 Truffle 连接到代理，请按照说明[通过Truffle调试合约](/05Developing/03Deploying%20dApps/02Connecting%20to%20the%20Neon%20Proxy)。您需要通过将 HDWalletProvider 库设置为从[总表](/08env/02Neon%20Proxy%20RPC%20Endpoints)中选择的 RPC URL的方式，来配置 `truffle-config.js`。
+要使用 Truffle 连接到代理，请按照说明[通过Truffle调试合约](/05Developing/03Deploying%20dApps/02Using%20Truffle)。您需要通过将 HDWalletProvider 库设置为从[总表](/08env/02Neon%20Proxy%20RPC%20Endpoints)中选择的 RPC URL的方式，来配置 `truffle-config.js`。
 
 #### 用Hardhat 连接到代理 (Connecting to a Proxy using Hardhat)
 
