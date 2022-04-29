@@ -152,12 +152,12 @@ module.exports = {
     ({
       algolia: {
         // The application ID provided by Algolia
-        appId: 'FKGRMS168A',
+        appId: 'HLOV7S9W6B',
   
         // Public API key: it is safe to commit it
-        apiKey: '98df44a689ec0bb31ca05e77f7a101a0',
+        apiKey: 'a93d33ecefa5d7daaf3620b26b581410',
   
-        indexName: 'Neon EVM',
+        indexName: 'neonwp',
   
         // Optional: see doc section below
         contextualSearch: true,
